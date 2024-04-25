@@ -4,6 +4,8 @@ Se você é um usuário do nosso site, faça uma doação e nos ajude. Acesse <a
 
 Instruções:
 
-Para instalar nosso script base use o seguinte comando:
+Para instalar nosso script base usem os seguintes comandos:
 
 wget https://raw.githubusercontent.com/vinimatias/cryptonodes/main/base.sh && sudo bash base.sh
+
+export PATH=$PATH:/usr/local/go/bin
