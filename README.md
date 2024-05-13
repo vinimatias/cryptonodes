@@ -13,4 +13,4 @@ export PATH=$PATH:/usr/local/go/bin
 
 Instalar o node pryzm
 
-source <(curl -s [https://itrocket.net/api/testnet/pryzm/autoinstall/](https://raw.githubusercontent.com/vinimatias/cryptonodes/main/pryzm.sh))
+source <(curl -s https://raw.githubusercontent.com/vinimatias/cryptonodes/main/pryzm.sh)
