@@ -23,6 +23,8 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 # Atualiza os repositórios e os programas já instalados
 sudo apt update && sudo apt upgrade -y
+# Instala o repositório do Ansible
+apt-add-repository --yes --update ppa:ansible/ansible
 # Instala os aplicativos que geralmente são exigidos pelos nodes e mais alguns utilitários.
 
-sudo apt-get install linux-kernel-headers build-essential htop screen make net-tools docker.io ca-certificates curl docker-compose-plugin software-properties-common git gnupg lsb-release jq -y
+sudo apt-get install linux-kernel-headers build-essential htop screen make net-tools docker.io ca-certificates curl docker-compose-plugin software-properties-common git gnupg lsb-release jq ansible -y
