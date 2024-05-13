@@ -27,4 +27,4 @@ sudo apt update && sudo apt upgrade -y
 apt-add-repository --yes --update ppa:ansible/ansible
 # Instala os aplicativos que geralmente são exigidos pelos nodes e mais alguns utilitários.
 
-sudo apt-get install linux-kernel-headers build-essential htop screen make net-tools docker.io ca-certificates curl docker-compose-plugin software-properties-common git gnupg lsb-release jq ansible -y
+sudo apt-get install linux-kernel-headers build-essential wget htop tmux screen make net-tools docker.io ca-certificates curl docker-compose-plugin software-properties-common git gnupg lsb-release jq lz4 gcc unzip ansible -y
